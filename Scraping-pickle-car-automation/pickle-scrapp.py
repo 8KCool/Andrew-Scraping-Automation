@@ -36,7 +36,7 @@ s3_client = boto3.client(
     aws_secret_access_key=SECRET_ACCESS_KEY,
 )
 
-
+ 
 # Filter URL to scrap the cars data
 URL = "https://www.pickles.com.au/used/search/lob/cars-motorcycles/cars/state/qld?contentkey=all-cars&filter=and%255B0%255D%255Bprice%255D%255Ble%255D%3D30000%26and%255B1%255D%255Bor%255D%255B0%255D%255BbuyMethod%255D%3DBuy%2520Now%26and%255B1%255D%255Bor%255D%255B1%255D%255BbuyMethod%255D%3DEOI%26and%255B1%255D%255Bor%255D%255B2%255D%255BbuyMethod%255D%3DPickles%2520Online"
 SENDER_PASSWORD = "tdao tbew tmya bizf"  # Update with your sender email password
